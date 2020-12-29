@@ -1,0 +1,8 @@
+.footer {
+    border: 1px solid black;
+    width: 98.5;
+    height: 70px;
+    margin: 10px;
+    background-color: orange;
+    color: black;
+}

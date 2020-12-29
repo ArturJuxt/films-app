@@ -1,0 +1,8 @@
+.content {
+  border: 1px solid black;
+  width: 98.5%;
+  height: 400px;
+  margin: 10px;
+  background-color: blue;
+  color: silver;
+}
