@@ -1,7 +1,7 @@
 import React from 'react';
 import "./NavBar.css";
 
-import bmw from "../../Img/bmw.png"
+import bmw from "../../../Img/bmw.png";
 
 function NavBar() {
     return (

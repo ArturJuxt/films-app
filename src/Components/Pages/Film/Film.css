@@ -1,0 +1,109 @@
+.film {
+    border: 1px solid black;
+    width: 98.5%;
+    margin: 20px 10px;
+    padding-bottom: 15px;
+}
+
+.film-main ul{
+    display: flex;
+    margin: 5px;
+    padding: 0;
+}
+
+.film-main ul li {
+    border: 1px solid black;
+    background-color: chocolate;
+    color: white;
+    list-style-type: none;
+    margin: 5px;
+}
+
+.film .form {
+    display: flex;
+}
+
+.film .block {
+    border: 1px solid black;
+    width: 150px;
+    height: 300px;
+    margin: 10px;
+    padding: 0;
+}
+
+.film .block img {
+    width: 120px;
+}
+
+.film .block .title {
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.film .block .year-type p > span {
+    font-weight:bold;
+    color: blueviolet;
+    margin-right: 6px;
+}
+
+.add-film-img {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.add-film-img p span{
+    font-weight: bold;
+}
+
+.add-film-img input {
+    width: 393px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.add-film-info{
+    display: flex;
+}
+
+.add-film-info div{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.add-film-info p span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.add-film-info .add-tittle input {
+   width: 130px;
+   height: 15px;
+   margin-right: 15px;
+}
+
+.add-film-info .add-year input {
+   width: 50px;
+   height: 15px;
+   margin-right: 15px;
+}
+
+.add-film-info .add-type select {
+   width: 100px;
+   height: 20px;
+   margin-right: 15px;
+}
+
+.add-film .add-button {
+   display: flex;
+   margin-left: 10px;
+}
+
+.add-film .add-button button{
+   width: 477px;
+   height: 25px;
+   background-color: mediumslateblue;
+   color: white;
+}

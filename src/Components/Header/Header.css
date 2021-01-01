@@ -1,7 +1,7 @@
 .header {
     border: 1px solid black;
     width: 98.5%;
-    height: 70px;
+    height: 50px;
     margin: 10px;
     background-color: red;
     color: silver;
@@ -32,4 +32,9 @@
     align-items: center;
     border-style: none;
     outline: none;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
 }

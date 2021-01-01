@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "./Serial.css";
 
 function Serial() {
     return (
-        <div>
+        <div className="serial">
             <h2>Serial</h2>
         </div>
     )
