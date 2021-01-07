@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/0/05/Venom_poster.jpg",
+        "title": "Venom",
+        "year": 2018,
+        "categories": ["Thriller"]
+    },
+    {
+        "id": 2,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/5/5a/Spider-Man_Homecoming_logo.jpg",
+        "title": "Spider Man",
+        "year": 2017,
+        "categories": ["Comedy"]
+    },
+    {
+        "id": 3,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/2/2f/X-Men-First-Class.jpg",
+        "title": "X-Men",
+        "year": 2011,
+        "categories": ["Action"]
+    },
+    {
+        "id": 4,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/f/f3/Hulk-2003.jpg",
+        "title": "Hulk",
+        "year": 2003,
+        "categories": ["Comedy"]
+    },
+    {
+        "id": 5,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/5/50/Shazam%21.jpg",
+        "title": "Shazam",
+        "year": 2019,
+        "categories": ["Fantasy"]
+    },
+    {
+        "id": 6,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/9/9d/Bloodshot_poster.jpg",
+        "title": "Bloodshot",
+        "year": 2020,
+        "categories": ["Fantasy"]
+    },
+    {
+        "id": 7,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/f/fc/Thor_poster.jpg",
+        "title": "Thor",
+        "year": 2011,
+        "categories": ["Thriller"]
+    },
+    {
+        "id": 8,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/0/0a/%D0%90%D0%BA%D0%B2%D0%B0%D0%BC%D0%B5%D0%BD.jpg",
+        "title": "Aquaman",
+        "year": 2018,
+        "categories": ["Action"]
+    },
+    {
+        "id": 9,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/2/25/%D0%A1%D0%BE%D0%BD%D0%B8%D0%BA_%D0%B2_%D0%BA%D0%B8%D0%BD%D0%BE.jpg",
+        "title": "Sonic",
+        "year": 2020,
+        "categories": ["Comedy"]
+    },
+    {
+        "id": 10,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/3/30/Iron_man_filmposter.jpg",
+        "title": "Iron Man ",
+        "year": 208,
+        "categories": ["Fantasy"]
+    },
+    {
+        "id": 11,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/3/3c/The_Avengers_2012_logo.jpg",
+        "title": "The Avengers",
+        "year": 2012,
+        "categories": ["Thriller"]
+    },
+    {
+        "id": 12,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/7/75/Ant-Man_poster.jpg",
+        "title": "Ant Man",
+        "year": 2015,
+        "categories": ["Action", "Thriller"]
+    },
+    {
+        "id": 13,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/b/b2/Deadpool_film.jpg",
+        "title": "Deadpool",
+        "year": 2016,
+        "categories": ["Comedy", "Action"]
+    },
+    {
+        "id": 14,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/4/42/Logan_poster.jpg",
+        "title": "Logan",
+        "year": 2017,
+        "categories": ["Fantasy", "Comedy"]
+    },
+    {
+        "id": 15,
+        "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/blackwidow_lob_crd_04.jpg",
+        "title": "Black Widow",
+        "year": 2021,
+        "categories": ["Thriller"]
+    },
+    {
+        "id": 16,
+        "img": "https://upload.wikimedia.org/wikipedia/ru/c/c7/Doctor_Strange_poster.jpg",
+        "title": "Doctor Strange",
+        "year": 2016,
+        "categories": ["Thriller"]
+    }
+]

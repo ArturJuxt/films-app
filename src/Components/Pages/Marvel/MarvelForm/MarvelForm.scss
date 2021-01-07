@@ -1,0 +1,19 @@
+.marvel-form {
+    border: 1px solid black;
+    width: 144px;
+    height: 300px;
+    margin: 10px;
+    padding: 0;
+    .form-img {
+        img {
+            width: 144px;
+            height: 180px;
+        }
+    }
+    .form-name {
+        margin-top: -20px;
+    }
+    .form-year {
+        margin: -8px 0;
+    }
+}

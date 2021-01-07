@@ -10,8 +10,8 @@ function Header() {
       <ul>
         <li><NavLink to="film">Film</NavLink></li>
         <li><NavLink to="serial">Serial</NavLink></li>
-        <li><NavLink to="clip">Clip</NavLink></li>
-        <li><NavLink to="music">Music</NavLink></li>
+        <li><NavLink to="marvel">Marvel</NavLink></li>
+        <li><NavLink to="netflix">Netflix</NavLink></li>
       </ul>
       <input type="text" placeholder="Search" />
     </div>

@@ -1,0 +1,72 @@
+.film-add {
+    display: flex;
+}
+
+.add-film-img {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.add-film-img p span{
+    font-weight: bold;
+}
+
+.add-film-img input {
+    width: 393px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.add-film-info{
+    display: flex;
+}
+
+.add-film-info div{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.add-film-info p span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.add-film-info .add-tittle input {
+   width: 130px;
+   height: 15px;
+   margin-right: 15px;
+}
+
+.add-film-info .add-year input {
+   width: 50px;
+   height: 15px;
+   margin-right: 15px;
+}
+
+.add-film-info .add-type select {
+   width: 100px;
+   height: 20px;
+   margin-right: 15px;
+}
+
+.add-film .add-button {
+   display: flex;
+   margin-left: 10px;
+}
+
+.add-film .add-button button{
+   width: 477px;
+   height: 25px;
+   background-color: mediumslateblue;
+   color: white;
+}
+
+.advertising img{
+    width: 780px;
+    height: 112px;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+

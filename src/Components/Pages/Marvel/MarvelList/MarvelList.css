@@ -1,0 +1,4 @@
+.marvelList {
+    display: flex;
+    flex-wrap: wrap;
+}

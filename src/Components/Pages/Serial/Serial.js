@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
 import "./Serial.css";
 
+import SerialList from "./SerialList/SerialList";
+import InputField from "./InputField/InputField";
+
 function Serial() {
-    return (
-        <div className="serial">
-            <h2>Serial</h2>
-        </div>
-    )
+  return (
+    <div className="serial">
+      <SerialList />
+      <InputField />
+    </div>
+  );
 }
 
-export default Serial
+export default Serial;

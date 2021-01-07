@@ -1,0 +1,29 @@
+.film .form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.film .block {
+    border: 1px solid black;
+    width: 144px;
+    height: 300px;
+    margin: 10px;
+    padding: 0;
+}
+
+.film .block img {
+    width: 144px;
+    height: 180px;
+}
+
+.film .block .title {
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.film .block .year-type p > span {
+    font-weight:bold;
+    color: blueviolet;
+    margin-right: 6px;
+}

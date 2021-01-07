@@ -1,0 +1,14 @@
+.film-main ul{
+    display: flex;
+    margin: 5px;
+    padding: 0;
+}
+
+.film-main ul li {
+    background-color: chocolate;
+    color: white;
+    list-style-type: none;
+    margin: 5px;
+    padding: 3px 5px;
+    cursor: pointer;
+}
