@@ -4,16 +4,19 @@
     height: 300px;
     margin: 10px;
     padding: 0;
-    .form-img {
-        img {
-            width: 144px;
-            height: 180px;
+    .form {
+        display: inline-block;
+        .form-img {
+            img {
+                width: 144px;
+                height: 180px;
+            }
         }
-    }
-    .form-name {
-        margin-top: -20px;
-    }
-    .form-year {
-        margin: -8px 0;
+        .form-name {
+            margin-top: -20px;
+        }
+        .form-year {
+            margin: -8px 0;
+        }
     }
 }

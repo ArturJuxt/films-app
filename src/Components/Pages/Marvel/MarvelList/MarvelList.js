@@ -7,7 +7,7 @@ import MarvelForm from "../MarvelForm/MarvelForm";
 
 function MarvelList() {
   const marvels = useSelector(getMarvels);
-  console.log(marvels , "marvels");
+
   return (
     <div className="marvelList">
       {marvels.map((marvel) => {

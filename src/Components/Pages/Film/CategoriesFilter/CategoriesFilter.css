@@ -12,3 +12,7 @@
     padding: 3px 5px;
     cursor: pointer;
 }
+
+.film-main ul li.active {
+    background: rgb(252, 207, 7);
+}

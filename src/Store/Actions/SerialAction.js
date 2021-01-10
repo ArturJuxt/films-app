@@ -1,8 +1,5 @@
-// import { serials } from "../States/States";
 
-export const ADD_SERIAL = "ADD_SERIAL";
-export const DELETE_SERIAL = "DELETE_SERIAL";
-export const UPDATE_SERIAL = "UPDATE_SERIAL";
+import { ADD_SERIAL, UPDATE_SERIAL, DELETE_SERIAL } from "../Constants/SerialConstants";
 
 
 export function addSerial (serial) {

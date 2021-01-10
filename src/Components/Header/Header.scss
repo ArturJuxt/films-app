@@ -1,0 +1,45 @@
+.header {
+    border: 1px solid black;
+    width: 98.5%;
+    height: 50px;
+    margin: 10px;
+    background-color: red;
+    color: silver;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .logo a {
+        text-decoration: none;
+        font-style: italic;
+        color: white;
+    }         
+    ul {
+        display: flex;
+        li {
+            display: flex;
+            list-style-type: none;
+            margin: 0 40px;
+            font-size: 24px;
+            color: black;
+            a {
+                text-decoration: none;
+                color: black;
+              }
+        }
+    }
+    input {
+        height: 20px;
+        align-items: center;
+        border-style: none;
+        outline: none;
+    }
+    
+}
+
+
+
+
+
+
+
+

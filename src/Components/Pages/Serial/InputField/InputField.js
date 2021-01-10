@@ -12,11 +12,10 @@ function InputField() {
 
   
   const newSerial = () => {
-    console.log(link, "link");
     dispatch(
       addSerial({
         id: uuid(),
-        link,
+        img: link,
         name,
         num,
       })

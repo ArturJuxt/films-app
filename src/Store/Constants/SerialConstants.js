@@ -1,0 +1,3 @@
+export const ADD_SERIAL = "ADD_SERIAL";
+export const DELETE_SERIAL = "DELETE_SERIAL";
+export const UPDATE_SERIAL = "UPDATE_SERIAL";

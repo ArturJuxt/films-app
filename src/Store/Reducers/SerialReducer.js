@@ -2,7 +2,7 @@ import {
   ADD_SERIAL,
   UPDATE_SERIAL,
   DELETE_SERIAL,
-} from "../Actions/SerialAction";
+} from "../Constants/SerialConstants";
 import { serials } from "../../Store/States/States";
 
 const SerialReducer = (state = serials, action) => {

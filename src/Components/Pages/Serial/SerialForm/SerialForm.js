@@ -10,17 +10,19 @@ function SerialForm({ serial }) {
   return (
     <div className="serial-form">
       <div>
-        <div className="form-img">
-          <img src={serial.img} alt="img" />
+        <div className="imgWrapper">
+          <div className="form-img" style={{ background: `url(${serial.img})`}} >
+          </div>
         </div>
-        <h3 className="form-name">{serial.name}</h3>
-        <h4 className="form-season">
-          Season: {serial.num}
-        </h4>
+        <h3 className="form-name">{serial.name || <span>No Name</span>}</h3>
+        <h4 className="form-season">Season: {serial.num || 0}</h4>
       </div>
-      <div>
-        <button>Edit</button>
-        <button onClick={() => dispatch(deleteSerial(serial.id))}>
+      <div className="buttons">
+        <button className="but-ed">Edit</button>
+        <button
+          className="but-del"
+          onClick={() => dispatch(deleteSerial(serial.id))}
+        >
           Delete
         </button>
       </div>

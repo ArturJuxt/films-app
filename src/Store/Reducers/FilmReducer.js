@@ -1,14 +1,16 @@
-import { ADD_SERIAL, UPDATE_SERIAL, DELETE_SERIAL } from "../Actions/SerialAction";
-import serials  from "../../data/Films.json";
+import { ADD_FILM, UPDATE_FILM, DELETE_FILM } from "../Constants/FilmConstants";
+import films  from "../../data/Films.json";
 
-const FilmReducer = (state = serials, action) => {
+const FilmReducer = (state = films, action) => {
   switch (action.type) {
-    case ADD_SERIAL:
+    case ADD_FILM:
+      const newState = [...state];
+      newState.push(action.payload);
+      return newState;
+    case UPDATE_FILM:
       break;
-    case UPDATE_SERIAL:
-      break;
-    case DELETE_SERIAL:
-      return state.filter(serial => serial.id !== action.payload);
+    case DELETE_FILM:
+      return state.filter(film => film.id !== action.payload);
     default:
       break;
   }

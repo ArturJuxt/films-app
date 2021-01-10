@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    .block {
+        border: 1px solid black;
+        width: 144px;
+        height: 300px;
+        margin: 10px;
+        padding: 0;
+        .image-wrapper {
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsNGGjrfSqqv8UjL18xS4YypbK-q7po_8oVQ&usqp=CAU);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .img {
+            width: 144px;
+            height: 180px;
+            background-size: cover !important;
+        }
+        .title {
+            font-size: 8px;
+            margin: 0;
+            padding: 0;
+        }
+        .year-type div > span {
+            font-weight:bold;
+            color: blueviolet;
+            margin-right: 6px;          
+        }
+        .type {
+            display: flex;
+            justify-content: center;
+        }
+        .film-delete {
+            margin-top: 5px;
+            button {
+                background-color: blue;
+                color: white;
+                border: none;
+                width: 80px;
+            }
+        }
+    }
+}
