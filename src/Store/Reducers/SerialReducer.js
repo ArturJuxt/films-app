@@ -8,11 +8,11 @@ import { serials } from "../../Store/States/States";
 const SerialReducer = (state = serials, action) => {
   switch (action.type) {
     case ADD_SERIAL:
-      const newState = [...state];
-      newState.push(action.payload);
-      return newState;
+      return [...state, action.payload];
     case UPDATE_SERIAL:
-      break;
+      return state.map((serial) =>
+        serial.id === action.payload.id ? action.payload : serial
+      );
     case DELETE_SERIAL:
       return state.filter((serial) => serial.id !== action.payload);
     default:

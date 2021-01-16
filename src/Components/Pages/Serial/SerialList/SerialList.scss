@@ -1,4 +1,28 @@
+.add-serial {
+  background-color: rgb(63, 34, 226);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 120px;
+  padding: 6px;
+}
 .serialList {
     display: flex;
     flex-wrap: wrap;
+}
+.h2-modal-name{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.modal-input {
+    input {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    span {
+        font-weight: bold;
+    }
 }

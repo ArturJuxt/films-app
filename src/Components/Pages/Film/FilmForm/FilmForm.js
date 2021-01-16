@@ -45,13 +45,15 @@ function FilmForm() {
                 <div>
                   <span>Type:</span>
                 </div>
-                {filmDetail.categories.map((categoryId) => {
-                  return (
-                    <div key={categoryId}>
-                      {categoriesMap.get(categoryId).title}
-                    </div>
-                  );
-                })}
+                {!filmDetail.categories.length
+                  ? "No Type"
+                  : filmDetail.categories.map((categoryId) => {
+                      return (
+                        <div key={categoryId}>
+                          {categoriesMap.get(categoryId).title}
+                        </div>
+                      );
+                    })}
               </div>
             </div>
             <div className="film-delete">

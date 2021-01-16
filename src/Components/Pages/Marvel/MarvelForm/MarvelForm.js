@@ -18,14 +18,14 @@ function MarvelForm({ marvel }) {
           <p>Year: {marvel.year}</p>
         </div>
         <div>
-          {marvel.categories.map((cat) => {
-            return <div className="category">{cat}</div>;
+          {marvel.categories.map((cat, index) => {
+            return <div key={index} className="category">{cat}</div>;
           })}
         </div>
       </div>
-      <div>
-        <button>Edit</button>
-        <button onClick={() => dispatch(deleteMarvel(marvel.id))}>
+      <div className="button">
+        <button className="edit">Edit</button>
+        <button className="delete" onClick={() => dispatch(deleteMarvel(marvel.id))}>
           Delete
         </button>
       </div>

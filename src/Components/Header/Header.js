@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="header">
       <h2 className="logo"><NavLink to="home">My-Films</NavLink></h2>
-      <ul>
+      <ul className="active">
         <li><NavLink to="film">Film</NavLink></li>
         <li><NavLink to="serial">Serial</NavLink></li>
         <li><NavLink to="marvel">Marvel</NavLink></li>

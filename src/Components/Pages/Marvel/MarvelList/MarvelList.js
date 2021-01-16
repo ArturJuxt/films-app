@@ -10,8 +10,8 @@ function MarvelList() {
 
   return (
     <div className="marvelList">
-      {marvels.map((marvel) => {
-        return <MarvelForm marvel={marvel} />;
+      {marvels.map((marvel, index) => {
+        return <MarvelForm key={index} marvel={marvel} />;
       })}
     </div>
   );

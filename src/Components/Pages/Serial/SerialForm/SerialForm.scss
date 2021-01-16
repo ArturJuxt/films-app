@@ -1,42 +1,22 @@
-.serial-form {
-    border: 1px solid black;
-    width: 144px;
-    height: 300px;
-    margin: 10px;
-    margin-bottom: 30px;
-    .imgWrapper {
-        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz64SfG3nmwl4nUwqFymHmzkEVFFftX2kQiA&usqp=CAU);
-        background-size: contain;
-        background-repeat: no-repeat;
+.inputField {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    flex-direction: column;
+    .img-link input{
+        width: 300px;
     }
-    .form-img {
-            width: 144px;
-            height: 180px;
-            background-size: cover !important;
+    .season-name input{
+        width: 150px;
     }
-    .buttons{
-        button {
-            border: none;
-            width: 50px;
-            margin: 3px;
-            padding: 2px;
-        }
-        .but-del {
-            background-color: red;
-            color: white;
-        }
-        .but-ed {
-            background-color: orange;
-            color: white;
-        }
-    } 
-}
-
-.category {
-    border: 1px solid #f0f0f0;
-    display: inline-block;
-    padding: 2px 5px;
-    background: #f5f5f5;
-    border-radius: 9px;
-    font-size: 12px;
+    .season-num input {
+        width: 100px;
+    }
+    span {
+        font-weight: bold;
+        margin:0 1px 0 22px;
+    }
+    .bold {
+        font-weight: bold;
+    }
 }

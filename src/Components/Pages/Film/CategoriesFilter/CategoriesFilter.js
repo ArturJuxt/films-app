@@ -13,12 +13,12 @@ function CategoriesFilter() {
   return (
     <div className="film-main">
       <ul>
-        <li onClick={() => dispatch(setFilter(0))}>All</li>
+        <li className={!filter ? "active" : null} onClick={() => dispatch(setFilter(0))}>All</li>
         {categories.map((cat) => (
           <li
             onClick={() => dispatch(setFilter(cat.id))}
             key={cat.id}
-            className={filter === cat.id && "active"}
+            className={filter === cat.id ? "active" : null}
           >
             {cat.title}
           </li>
