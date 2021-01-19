@@ -6,6 +6,10 @@
   width: 120px;
   padding: 6px;
 }
+.add-serial:active {
+    position:relative;
+	top:1px;
+}
 .serialList {
     display: flex;
     flex-wrap: wrap;
