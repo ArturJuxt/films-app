@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./MarvelList.css";
 import { useSelector } from "react-redux";
-import { getMarvels } from "../../../../Store/Selectors";
+import { getMarvels, getSearch } from "../../../../Store/Selectors";
 
 import MarvelForm from "../MarvelForm/MarvelForm";
 
 function MarvelList() {
-  const [search, setSearch] = useState("");
-  const [filterMarvel, setFilterMarvel] = useState([]);
+  const search = useSelector(getSearch);
   const marvels = useSelector(getMarvels);
+  const [filterMarvel, setFilterMarvel] = useState([]);
 
   useEffect(() => {
     setFilterMarvel(
@@ -20,14 +20,6 @@ function MarvelList() {
 
   return (
     <div>
-      <div>
-        <input
-          type="text"
-          placeholder="Search"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-      </div>
       <div className="marvelList">
         {!filterMarvel[0] ? (
           <div className="text-search">No Search Marvel Movies</div>

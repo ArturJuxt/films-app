@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
+import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from "react-router-dom";
+import { setSearch } from "../../Store/Actions/SearchAction";
+import { getSearch } from "../../Store/Selectors";
 import "./Header.scss";
 
 function Header() {
-  const [name, setName] = useState("")
+  const dispatch = useDispatch();
+  const name = useSelector(getSearch);
 
   return (
     <div className="header">
@@ -28,7 +32,7 @@ function Header() {
         type="text"
         placeholder="Search"
         value={name}
-        onChange={(e) => setName(e.target.value)}
+        onChange={(e) => dispatch(setSearch(e.target.value))}
       />
     </div>
   );

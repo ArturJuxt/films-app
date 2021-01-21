@@ -4,6 +4,7 @@ import MarvelReducer from "./MarvelReducer";
 import FilmReducer from "./FilmReducer";
 import CategoryReducer from "./CategoryReducer";
 import FilterReducer from "./FilterReducer";
+import SearchReducer from "./SearchReducer";
 
 const RootReducer = combineReducers({
    serials: SerialReducer,
@@ -11,6 +12,7 @@ const RootReducer = combineReducers({
    films: FilmReducer,
    categories: CategoryReducer,
    filter: FilterReducer,
+   search: SearchReducer,
 });
 
 export default RootReducer;

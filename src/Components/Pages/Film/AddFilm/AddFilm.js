@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import "./AddFilm.css";
 import { v1 as uuid } from "uuid";
 import { useDispatch, useSelector } from "react-redux";
@@ -12,9 +12,9 @@ function AddFilm() {
   const [category, setCategory] = useState("");
 
   const dispatch = useDispatch();
-  const categories = useSelector(getCategories)
+  const categories = useSelector(getCategories);
 
-  const newFilm = () => {
+  const newFilm = useCallback(() => {
     dispatch(
       addFilm({
         id: uuid(),
@@ -28,7 +28,7 @@ function AddFilm() {
     setTitle("");
     setYear("");
     setCategory("");
-  };
+  }, [dispatch, img, title, year, category]);
 
   return (
     <div className="film-add">
@@ -69,9 +69,16 @@ function AddFilm() {
             <p>
               <span>Type:</span>
             </p>
-            <select value={category} onChange={(e) => setCategory(e.target.value)}>
+            <select
+              value={category}
+              onChange={(e) => setCategory(e.target.value)}
+            >
               <option></option>
-              {categories.map(cat => <option key={cat.id} value={cat.id}>{cat.title}</option>)}
+              {categories.map((cat) => (
+                <option key={cat.id} value={cat.id}>
+                  {cat.title}
+                </option>
+              ))}
             </select>
           </div>
         </div>
